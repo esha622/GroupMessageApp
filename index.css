@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:wght@400;700&display=swap");
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #1B1924;
+    color:#ffffff;
+    font-family: "Josefin Sans", sans-serif;
+    font-style: normal;
+}
+img{
+    display: block;
+    margin: 100px auto 5px auto;
+    width: 150px;
+    border-radius: 5px;
+}
+h1{
+    font-size: 30px;
+    text-align: center;
+}
+#message-el{
+    display: block;
+    margin: 5px auto;
+    border: none;
+    border-radius: 8px;
+    height: 110px;
+    width: 240px;
+    background-color: #444059;
+    font-size: 14px;
+    color: white;
+    text-align: left;
+}
+#message-el::placeholder{
+    position: relative;
+    padding: 10px;
+    font-size: 12px;
+    color: #8F8F8F;
+
+}
+#container{
+    margin: 0px auto;
+}
+#from-el{
+    position: relative;
+    display: inline-block;
+    margin: 0px auto;
+    border: none;
+    border-radius: 8px;
+    height: 30px;
+    width: 115px;
+    background-color: #444059;
+    font-size: 12px;
+    color: white;
+    bottom: 2%;
+}
+#from-el::placeholder{
+    position: relative;
+    bottom: 2%;
+    text-align: center;
+    padding: 10px;
+    font-size: 12px;
+    color: #8F8F8F;
+}
+#to-el{
+    display: inline-block;
+    margin: 0px auto;
+    border: none;
+    border-radius: 8px;
+    height: 30px;
+    width: 115px;
+    background-color: #444059;
+    font-size: 12px;
+    color: white;
+    bottom: 2%;
+}
+#to-el::placeholder{
+    position: relative;
+    bottom: 2%;
+    text-align: center;
+    padding: 10px;
+    font-size: 12px;
+    color: #8F8F8F;
+}
+#publish-btn{
+    display: block;
+    background-color: #f18628;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: bold;
+    margin: 5px auto;
+    width: 240px;
+    height: 40px;
+}
+#publish-btn:hover{
+    background-color: #2e78a0;
+    color: #ffffff;
+    box-shadow: 2px 3px 15px rgb(5, 184, 160);
+}
+#container{
+    display: block;
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+    display: block;
+    margin: 10px auto;
+    flex-wrap: wrap;
+    gap: 10px;
+    color: #ffffff;
+    font-family: "Inter", sans-serif;
+    width:240px;
+    height: cover;
+    padding: 0;
+    position: relative;
+}
+
+ul li {
+    font-size: 15px;
+    border-radius: 5px;
+    background-color: #FFFDF8;
+    color: black;
+    font-size: 12px;
+    margin: 15px auto;
+    padding: 15px;
+    flex-grow: 1;
+    text-align: left;
+    box-shadow: 0px 1px 4px rgba(255, 255, 255, 0.2)
+}
+button{
+    border:none;
+    background: none;
+    padding:0;
+    align-items: flex-end;
+    margin:0px 7px;
+    display: inline-flex;
+    cursor: pointer;
+    justify-content: flex-end;
+}
+li button{
+    position: absolute;
+    right: 25px;
+    bottom: 5px;
+}
